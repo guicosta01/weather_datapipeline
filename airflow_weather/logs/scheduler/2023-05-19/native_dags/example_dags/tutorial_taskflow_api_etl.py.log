@@ -86,3 +86,10 @@
 [2023-05-19 18:05:16,986] {logging_mixin.py:115} INFO - [2023-05-19 18:05:16,986] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-05-19 18:05:16,995] {logging_mixin.py:115} INFO - [2023-05-19 18:05:16,994] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
 [2023-05-19 18:05:17,001] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.038 seconds
+[2023-05-19 18:05:47,743] {processor.py:153} INFO - Started process (PID=13097) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-05-19 18:05:47,743] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-05-19 18:05:47,744] {logging_mixin.py:115} INFO - [2023-05-19 18:05:47,744] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-05-19 18:05:47,755] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-05-19 18:05:47,763] {logging_mixin.py:115} INFO - [2023-05-19 18:05:47,763] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-05-19 18:05:47,772] {logging_mixin.py:115} INFO - [2023-05-19 18:05:47,772] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-05-19 18:05:47,778] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.036 seconds

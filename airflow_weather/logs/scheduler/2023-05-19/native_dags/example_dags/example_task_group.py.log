@@ -86,3 +86,10 @@
 [2023-05-19 18:05:35,245] {logging_mixin.py:115} INFO - [2023-05-19 18:05:35,245] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-05-19 18:05:35,253] {logging_mixin.py:115} INFO - [2023-05-19 18:05:35,253] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-05-18T21:05:35.253771+00:00, run_after=2023-05-19T21:05:35.253771+00:00
 [2023-05-19 18:05:35,259] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.031 seconds
+[2023-05-19 18:06:07,130] {processor.py:153} INFO - Started process (PID=13308) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-05-19 18:06:07,131] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-05-19 18:06:07,131] {logging_mixin.py:115} INFO - [2023-05-19 18:06:07,131] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-05-19 18:06:07,134] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-05-19 18:06:07,145] {logging_mixin.py:115} INFO - [2023-05-19 18:06:07,145] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-05-19 18:06:07,153] {logging_mixin.py:115} INFO - [2023-05-19 18:06:07,153] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-05-18T21:06:07.153404+00:00, run_after=2023-05-19T21:06:07.153404+00:00
+[2023-05-19 18:06:07,159] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.030 seconds

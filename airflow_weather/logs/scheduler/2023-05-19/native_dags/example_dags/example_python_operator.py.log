@@ -98,3 +98,11 @@
 [2023-05-19 18:05:31,600] {logging_mixin.py:115} INFO - [2023-05-19 18:05:31,600] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-05-19 18:05:31,608] {logging_mixin.py:115} INFO - [2023-05-19 18:05:31,608] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2023-05-19 18:05:31,615] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.035 seconds
+[2023-05-19 18:06:03,750] {processor.py:153} INFO - Started process (PID=13304) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-05-19 18:06:03,750] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-05-19 18:06:03,750] {logging_mixin.py:115} INFO - [2023-05-19 18:06:03,750] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-05-19 18:06:03,763] {logging_mixin.py:115} INFO - [2023-05-19 18:06:03,763] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-05-19 18:06:03,763] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-05-19 18:06:03,772] {logging_mixin.py:115} INFO - [2023-05-19 18:06:03,772] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-05-19 18:06:03,780] {logging_mixin.py:115} INFO - [2023-05-19 18:06:03,780] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-05-19 18:06:03,786] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.038 seconds
