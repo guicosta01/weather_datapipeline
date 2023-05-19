@@ -54,3 +54,18 @@ To run this project, you will need to add the following environment variables to
 ## Bash commands
 get commands in doc 
 
+sudo apt update
+sudo apt upgrade
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.10
+
+apt install python3.10-venv
+python3.10 -m venv venv
+source venv/bin/activate
+
+pip install 'apache-airflow==2.3.2' --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.3.2/constraints-3.10.txt"
+
+export AIRFLOW_HOME=~/Documents/weather_datapipeline/airflow_weather
+airflow standalone
+
+
