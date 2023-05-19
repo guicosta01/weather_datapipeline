@@ -93,3 +93,10 @@
 [2023-05-19 18:05:53,515] {logging_mixin.py:115} INFO - [2023-05-19 18:05:53,515] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-05-19 18:05:53,525] {logging_mixin.py:115} INFO - [2023-05-19 18:05:53,525] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-05-19T21:02:00+00:00, run_after=2023-05-19T21:04:00+00:00
 [2023-05-19 18:05:53,532] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.040 seconds
+[2023-05-19 18:06:23,642] {processor.py:153} INFO - Started process (PID=13528) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-05-19 18:06:23,642] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-05-19 18:06:23,642] {logging_mixin.py:115} INFO - [2023-05-19 18:06:23,642] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-05-19 18:06:23,653] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-05-19 18:06:23,660] {logging_mixin.py:115} INFO - [2023-05-19 18:06:23,660] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-05-19 18:06:23,670] {logging_mixin.py:115} INFO - [2023-05-19 18:06:23,670] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-05-19T21:04:00+00:00, run_after=2023-05-19T21:06:00+00:00
+[2023-05-19 18:06:23,676] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.035 seconds

@@ -93,3 +93,10 @@
 [2023-05-19 18:05:48,380] {logging_mixin.py:115} INFO - [2023-05-19 18:05:48,380] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-05-19 18:05:48,389] {logging_mixin.py:115} INFO - [2023-05-19 18:05:48,389] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-05-18T00:00:00+00:00, run_after=2023-05-19T00:00:00+00:00
 [2023-05-19 18:05:48,394] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.032 seconds
+[2023-05-19 18:06:18,744] {processor.py:153} INFO - Started process (PID=13517) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-05-19 18:06:18,744] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-05-19 18:06:18,744] {logging_mixin.py:115} INFO - [2023-05-19 18:06:18,744] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-05-19 18:06:18,750] {processor.py:651} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-05-19 18:06:18,760] {logging_mixin.py:115} INFO - [2023-05-19 18:06:18,760] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-05-19 18:06:18,769] {logging_mixin.py:115} INFO - [2023-05-19 18:06:18,769] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-05-18T00:00:00+00:00, run_after=2023-05-19T00:00:00+00:00
+[2023-05-19 18:06:18,775] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.033 seconds
