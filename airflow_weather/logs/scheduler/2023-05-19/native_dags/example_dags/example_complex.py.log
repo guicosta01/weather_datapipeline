@@ -23,3 +23,10 @@
 [2023-05-19 18:01:00,732] {logging_mixin.py:115} INFO - [2023-05-19 18:01:00,732] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-05-19 18:01:00,743] {logging_mixin.py:115} INFO - [2023-05-19 18:01:00,743] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2023-05-19 18:01:00,750] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.039 seconds
+[2023-05-19 18:01:33,249] {processor.py:153} INFO - Started process (PID=11357) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-05-19 18:01:33,262] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-05-19 18:01:33,262] {logging_mixin.py:115} INFO - [2023-05-19 18:01:33,262] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-05-19 18:01:33,277] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-05-19 18:01:33,294] {logging_mixin.py:115} INFO - [2023-05-19 18:01:33,294] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-05-19 18:01:33,303] {logging_mixin.py:115} INFO - [2023-05-19 18:01:33,302] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-05-19 18:01:33,311] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds

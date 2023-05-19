@@ -30,3 +30,10 @@
 [2023-05-19 18:01:24,128] {logging_mixin.py:115} INFO - [2023-05-19 18:01:24,128] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-05-19 18:01:24,137] {logging_mixin.py:115} INFO - [2023-05-19 18:01:24,137] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-05-18T00:00:00+00:00, run_after=2023-05-19T00:00:00+00:00
 [2023-05-19 18:01:24,143] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.032 seconds
+[2023-05-19 18:01:56,827] {processor.py:153} INFO - Started process (PID=11539) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-05-19 18:01:56,827] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-05-19 18:01:56,828] {logging_mixin.py:115} INFO - [2023-05-19 18:01:56,827] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-05-19 18:01:56,833] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-05-19 18:01:56,842] {logging_mixin.py:115} INFO - [2023-05-19 18:01:56,842] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-05-19 18:01:56,851] {logging_mixin.py:115} INFO - [2023-05-19 18:01:56,851] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-05-18T00:00:00+00:00, run_after=2023-05-19T00:00:00+00:00
+[2023-05-19 18:01:56,856] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.031 seconds

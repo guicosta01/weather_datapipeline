@@ -30,3 +30,10 @@
 [2023-05-19 18:01:12,751] {logging_mixin.py:115} INFO - [2023-05-19 18:01:12,751] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-05-19 18:01:12,759] {logging_mixin.py:115} INFO - [2023-05-19 18:01:12,759] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
 [2023-05-19 18:01:12,766] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.039 seconds
+[2023-05-19 18:01:44,639] {processor.py:153} INFO - Started process (PID=11469) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-19 18:01:44,639] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-19 18:01:44,639] {logging_mixin.py:115} INFO - [2023-05-19 18:01:44,639] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-19 18:01:44,657] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-19 18:01:44,667] {logging_mixin.py:115} INFO - [2023-05-19 18:01:44,667] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-05-19 18:01:44,676] {logging_mixin.py:115} INFO - [2023-05-19 18:01:44,676] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-05-19 18:01:44,683] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.046 seconds

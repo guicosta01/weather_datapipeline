@@ -30,3 +30,10 @@
 [2023-05-19 18:01:14,990] {logging_mixin.py:115} INFO - [2023-05-19 18:01:14,990] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-05-19 18:01:15,000] {logging_mixin.py:115} INFO - [2023-05-19 18:01:15,000] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-05-18T21:01:15.000339+00:00, run_after=2023-05-19T21:01:15.000339+00:00
 [2023-05-19 18:01:15,006] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.030 seconds
+[2023-05-19 18:01:46,702] {processor.py:153} INFO - Started process (PID=11475) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-05-19 18:01:46,702] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-05-19 18:01:46,703] {logging_mixin.py:115} INFO - [2023-05-19 18:01:46,703] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-05-19 18:01:46,706] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-05-19 18:01:46,715] {logging_mixin.py:115} INFO - [2023-05-19 18:01:46,715] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-05-19 18:01:46,727] {logging_mixin.py:115} INFO - [2023-05-19 18:01:46,727] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-05-18T21:01:46.727475+00:00, run_after=2023-05-19T21:01:46.727475+00:00
+[2023-05-19 18:01:46,736] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.036 seconds
