@@ -1,47 +1,29 @@
 
 # Weather datapipeline
 
-A brief description of what this project does and who it's for:
 
 Weather datapipeline: Develop a datapipeline that extract weather information from an API based on the user's location or a specified city.
 
 Using Apache Airflow to scheduling the current weather conditions along with a forecast for the upcoming days.
 
-The output of this workflow will be used for the stakeholders for planning your actions.
+The output of this workflow will be saved in a specific folder that contains the week number in format 'csv', and it going to be used for the stakeholders for planning your actions.
+
 ## API Reference
 
-#### Get all items
-
-```http
-  GET /api/items
+```
+  https://www.visualcrossing.com/weather-api
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
+| `YOUR_API_KEY` | `string` | **Required**. Your API key |
 
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to change the following variables
 
-`API_KEY`
-
-`ANOTHER_API_KEY`
+`YOUR_API_KEY`
 
 
 ## Tech
@@ -50,9 +32,10 @@ To run this project, you will need to add the following environment variables to
 
 **Apache Airflow** 
 
+**Bash** 
+
 
 ## Bash commands
-get commands in doc 
 
 sudo apt update
 sudo apt upgrade
@@ -65,7 +48,15 @@ source venv/bin/activate
 
 pip install 'apache-airflow==2.3.2' --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.3.2/constraints-3.10.txt"
 
-export AIRFLOW_HOME=~/Documents/weather_datapipeline/airflow_weather
-airflow standalone
+export AIRFLOW_HOME=~/Documents/weather_datapipeline/airflow_weather (change by your dir)
+
+airflow standalone (just for tests)
+
+
+## Task (in development)
+Put some Imagens 
+
+
+
 
 
