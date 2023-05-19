@@ -46,3 +46,11 @@
 [2023-05-19 18:01:39,884] {logging_mixin.py:115} INFO - [2023-05-19 18:01:39,884] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
 [2023-05-19 18:01:39,884] {logging_mixin.py:115} INFO - [2023-05-19 18:01:39,884] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
 [2023-05-19 18:01:39,893] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.052 seconds
+[2023-05-19 18:02:14,296] {processor.py:153} INFO - Started process (PID=11637) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-05-19 18:02:14,297] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2023-05-19 18:02:14,297] {logging_mixin.py:115} INFO - [2023-05-19 18:02:14,297] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-05-19 18:02:14,309] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-05-19 18:02:14,318] {logging_mixin.py:115} INFO - [2023-05-19 18:02:14,318] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-05-19 18:02:14,327] {logging_mixin.py:115} INFO - [2023-05-19 18:02:14,327] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2023-05-19 18:02:14,327] {logging_mixin.py:115} INFO - [2023-05-19 18:02:14,327] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2023-05-19 18:02:14,333] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.039 seconds

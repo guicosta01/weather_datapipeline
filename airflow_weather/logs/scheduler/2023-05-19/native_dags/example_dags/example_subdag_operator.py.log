@@ -64,3 +64,15 @@
 [2023-05-19 18:01:37,280] {logging_mixin.py:115} INFO - [2023-05-19 18:01:37,280] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
 [2023-05-19 18:01:37,280] {logging_mixin.py:115} INFO - [2023-05-19 18:01:37,280] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
 [2023-05-19 18:01:37,285] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.040 seconds
+[2023-05-19 18:02:10,022] {processor.py:153} INFO - Started process (PID=11633) to work on /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-19 18:02:10,023] {processor.py:641} INFO - Processing file /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-19 18:02:10,023] {logging_mixin.py:115} INFO - [2023-05-19 18:02:10,023] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-19 18:02:10,034] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-19 18:02:10,045] {logging_mixin.py:115} INFO - [2023-05-19 18:02:10,045] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-05-19 18:02:10,054] {logging_mixin.py:115} INFO - [2023-05-19 18:02:10,054] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-05-19 18:02:10,054] {logging_mixin.py:115} INFO - [2023-05-19 18:02:10,054] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-05-19 18:02:10,055] {logging_mixin.py:115} INFO - [2023-05-19 18:02:10,054] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-05-19 18:02:10,057] {logging_mixin.py:115} INFO - [2023-05-19 18:02:10,057] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-05-19 18:02:10,059] {logging_mixin.py:115} INFO - [2023-05-19 18:02:10,059] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-05-19 18:02:10,059] {logging_mixin.py:115} INFO - [2023-05-19 18:02:10,059] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-05-19 18:02:10,063] {processor.py:161} INFO - Processing /home/guilherme/Documents/weather_datapipeline/airflow_weather/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.042 seconds
