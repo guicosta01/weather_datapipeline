@@ -12,7 +12,7 @@ date_today = date_today.strftime('%Y-%m-%d')
 date_end = date_end.strftime('%Y-%m-%d')
 
 city = 'Sao%20Paulo'
-key = 'YOUR_API_KEY'
+key = YOUR_API_KEY
 url_api = join('https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/' +
             f'{city}/{date_today}/{date_end}?unitGroup=metric&include=days&key={key}&contentType=csv')
 
